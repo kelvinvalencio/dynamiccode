@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1473063615 source:c:\users\user\documents\cplusplus\dynamiccode\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<ctime>
+
+1473163975 source:c:\users\kelvin valencio\documents\cplusplus\dynamiccode\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<ctime>
+
