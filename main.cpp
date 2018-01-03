@@ -10,7 +10,6 @@ This build includes :
 -4 C++ Headers (1 Windows Header included)
 -Standard namespace
 -Beep function
--Other shits too lazy to write
 */
 
 #include <iostream>
@@ -30,11 +29,11 @@ int randomizer() {
     int zz;
     int cc;
     cout << "Put Your Seed number for randomization!" << endl;
-    cout << "(Noob explaination) Put any number!" << endl;
+    cout << "(Explaination) Put any number!" << endl;
     cin >> zz;
     cin.get();
     cout << "\n\nNow put the range of number for randomization!" << endl;
-    cout << "(Noob explaination) For example, you want to make a random number, but not less then certain number, you put the maximum number here!" << endl;
+    cout << "(Explaination) For example, you want to make a random number, but not less then certain number, you put the maximum number here!" << endl;
     cin >> cc;
     cin.get();
 srand(zz);
@@ -52,17 +51,17 @@ int randomizer2() {
     cout << "----------------" << endl;
     cout << "What does RNG 2 do? : It generates random number based on PNRG Algorithm. In this app, you are able to set number of seeds, ";
     cout << "set the number of multi-results, and you can limit the randomizer for certain number.\n\n" << endl;
-    cout << "Noob expl. : Write any number" << endl;
+    cout << "Expl. : Write any number" << endl;
     cout << "Or write 0 to randomize Seed Number (seed number should be randomized)" << endl;
     cin >> ab;
     if (ab == 0) {
         ab = time(0);
     }
     cout << "\n\n\nNumber of results" << endl;
-    cout << "Noob expl. : Number of results you want to get\n" << endl;
+    cout << "Explaination : Number of results you want to get\n" << endl;
     cin >> bc;
     cout << "\n\n\nRange Number" << endl;
-    cout << "Noob expl. : Maximum number for randomiziation (ex : You want to have random numbers under 10, you write 10\n" << endl;
+    cout << "Explaination : Maximum number for randomiziation (ex : You want to have random numbers under 10, you write 10\n" << endl;
     cin >> cd;
     cout << "Displaying Random numbers based on these facts : \n" << endl;
     cout << "Seeds : " << ab << endl;
@@ -118,10 +117,8 @@ int bug() {
     cout << "Known Bugs" << endl;
     cout << "----------------" << endl;
 cout << "- No exception for strings (bringing string causes the code to loop forever" << endl;
-cout << "- Too lazy to write exceptions M8" << endl;
-cout << "- Fk this shit\n" << endl;
 
-cout << "New Shits" << endl;
+cout << "What's New" << endl;
 cout << "----------------" << endl;
 cout << "- More structured for each app" << endl;
 cout << "- New app : Random Number Generator 2" << endl;
@@ -135,7 +132,7 @@ int main()
     cout << "----------------" << endl;
     cout << "1st Build" << endl;
     cout << "Provides 6 main useless features lol\n" << endl;
-    cout << "How to use : Type a NUMBER (only the @!?#ing NUMBER) of MENUS above, then press ENTER to choose one app." << endl;
+    cout << "How to use : Type a NUMBER (only the NUMBER) of MENUS above, then press ENTER to choose one app." << endl;
     cout << "REMEMBER! Type the right number, or it will not enter the app.\n\n" << endl;
     cout << "Menu : " << endl;
     cout << "1. Infinite Loops (not really infinite tho)" << endl;
@@ -212,7 +209,7 @@ case 4 :
     cout << "DynamicCode means code that could be changed at anytime" << endl;
     cout << "Called DynamicCode because the project name used to write code temporarily (for study purpose)\n" << endl;
     cout << "Written in C++ by kelvinvalencio\n\n" << endl;
-    cout << "Version : 0.3" << endl;
+    cout << "Version : 1.3" << endl;
     cout << "Build Number : 060916 | Codename : BAF (Buggy AF)" << endl;
     cout << "First Build with 280 Lines of code & 3 weeks of learning\n" << endl;
     cout << "About Compiler" << endl;
