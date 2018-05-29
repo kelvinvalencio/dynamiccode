@@ -25,7 +25,7 @@ int randomizer() {
     cout << "Random Number Generator" << endl;
     cout << "----------------" << endl;
     cout << "What does RNG do? It generates random number, you can set the seeds, and you can set the limit for randomized number." << endl;
-    cout << "For noobs, this program generates random numbers (very random) *flies away*\n\n" << endl;
+    cout << "This program generates random numbers\n\n" << endl;
     int zz;
     int cc;
     cout << "Put Your Seed number for randomization!" << endl;
@@ -101,17 +101,16 @@ int SECRET() {
     int ooo;
     int ppp;
     cout << "\n" << endl;
-cout << "Penghitung Luas Persegi LOL" << endl;
+cout << "Penghitung Luas Persegi" << endl;
 cout << "----------------" << endl;
-cout << "What does Penghitung Luas Persegi do? : It multiplies your inputs. This app made for easter egg, refers to";
-cout << " my very first Android App : Penghitung Luas Persegi.apk written in Java." << endl;
+cout << "What does Penghitung Luas Persegi do? : It multiplies your inputs. This refers to";
+cout << " my very first Android App : Penghitung Luas Persegi" << endl;
 cout << "\n\n\nPanjang Persegi?" << endl;
 cin >> ooo;
 cout << "\n\n\nLebar Persegi?" << endl;
 cin >> ppp;
 cout << "Luas = " << ooo * ppp;
 }
-
 int bug() {
     cout << "\n" << endl;
     cout << "Known Bugs" << endl;
@@ -141,7 +140,7 @@ int main()
     cout << "4. About Program" << endl;
     cout << "5. Known Bugs & New shits" << endl;
     cout << "6. Random Number Generator 2 (Multi Results)" << endl;
-    cout << "666. Secret Program" << endl;
+    //cout << "666. Secret Program" << endl;
     cout << "7. Exit Program\n\n\n" << endl;
 
     cin >> menu;
@@ -206,11 +205,10 @@ case 4 :
     cout << "\n" << endl;
     cout << "About" << endl;
     cout << "----------------" << endl;
-    cout << "DynamicCode means code that could be changed at anytime" << endl;
+    cout << "DynamicCode means nothing. I just randomly write DynamicCode because I ran out of idea." << endl;
     cout << "Called DynamicCode because the project name used to write code temporarily (for study purpose)\n" << endl;
     cout << "Written in C++ by kelvinvalencio\n\n" << endl;
-    cout << "Version : 1.3" << endl;
-    cout << "Build Number : 060916 | Codename : BAF (Buggy AF)" << endl;
+    cout << "Version : 1.4" << endl;
     cout << "First Build with 280 Lines of code & 3 weeks of learning\n" << endl;
     cout << "About Compiler" << endl;
     cout << "----------------" << endl;
